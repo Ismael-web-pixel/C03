@@ -1,26 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int A, B, C, Max;
+    
+    int x, y, z, Max;
 
-    printf("Entrer le premier nombre : ");
-    scanf("%d", &A);
-    printf("Entrer le deuxième nombre : ");
-    scanf("%d", &B);
-    printf("Entrer le troisième nombre : ");
-    scanf("%d", &C);
+ scanf("%d %d %d", &x, &y, &z);
+        printf("Entrez trois entiers : ");
 
-    Max = A;
+    Max = x;
 
-    if (B > Max) {
-        Max = B;
+    if (y > Max) 
+    {
+        Max = y;
     }
 
-    if (C > Max) {
-        Max = C;
+    if (z > Max) 
+    {
+        Max = z;
     }
 
-    printf("Le plus grand nombre est : %d\n", Max);
+    printf("Le plus grand est : %d\n", Max);
 
     return 0;
 }
